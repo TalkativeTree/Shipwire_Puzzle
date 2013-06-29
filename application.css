@@ -1,0 +1,25 @@
+*{
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+}
+ul {
+  float: left;
+  margin: 0;
+  height: 600px;
+}
+ul li{
+  list-style: none;
+  height: 26px;
+  font-size: 10px;
+}
+
+.schedule {
+  width: 800px;
+  height:600px;
+  padding: 0 5px 0 5px;
+  background-color: #8BFFCA;
+}
+
+div {
+  background-color: white;
+}
