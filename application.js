@@ -56,7 +56,7 @@ Schedule.prototype = {
 var ScheduleOrganizer = {
               init: function(orders){
                       console.log(this);
-                      this.convertAll(orders);
+                      this.convertAll(orders);//this.schedule.orders is currently being pushed all of the orders. Should do only one at a time
                       for(var i = 0; i < this.schedule.orders.length; i++){
                         var queuedOrder = this.schedule.orders[i];
                         this.checkTimeOverlap(queuedOrder);
